@@ -1,46 +1,7 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Coming Soon</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-</head>
-
-
-<body>
-  <ul class="skip-links">
-    <li>
-      <a href="#main">Jump to main content</a>
-    </li>
-    <li>
-      <a href="#nav">Jump to navigation</a>
-    </li>
-  </ul>
-
-
-  <header>
-    <div class="grid grid-middle pad-t-1-2 pad-b-1-2 gutter-half">
-      <div class="masthead unit xs-1 s-1 m-1 l-1-2">
-        <h1>Jaimie Porter</h1>
-      </div>
-
-      <nav class="unit xs-1 s-1 m-1 l-1-2">
-        <input type="checkbox" class="nav-check hide-custom-input" id="nav-check">
-        <label class="nav-label" for="nav-check"><img src="images/nav-icon.svg" alt="Open Navigation"></label>
-        <ul class="nav list-group">
-          <li><a href="#">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
+---
+layout: default
+---
+  <!--BANNER-->
   <div class="banner">
     <img class="me img-flex valign-middle" src="images/me.png" alt="">
 
@@ -53,19 +14,46 @@
     </div>
 
 
-
+  <!--PORTFOLIO-->
 <section class="grid" id="work">
 
-  <a href="work.html" class="card unit s-1 m-1-2 l-1-3 island-1-2">
+  <a href="jacket.html" class="card unit s-1 m-1-2 l-1-3">
     <div class="relative">
-      <img class="img-flex" src="images/balloon.png" alt="">
+      <img class="img-flex" src="images/work-icon-01.png" alt="">
       <div class="content center-contents">
         <h2 class="gutter-half">Yellow Jackets</h2>
       </div>
     </div>
   </a>
 
-  <a class="card unit s-1 m-1-2 l-1-3 island-1-2">
+  <a href="iscream.html" class="card unit s-1 m-1-2 l-1-3">
+    <div class="relative">
+      <img class="img-flex" src="images/work-icon-02.png" alt="">
+      <div class="content center-contents">
+        <h2 class="gutter-half">I Scream</h2>
+      </div>
+    </div>
+  </a>
+
+  <a class="card unit s-1 m-1-2 l-1-3">
+    <div class="relative">
+      <img class="img-flex" src="images/work-icon-03.png" alt="">
+      <div class="content center-contents">
+        <h2 class="gutter-half">Nerd Alert</h2>
+      </div>
+    </div>
+  </a>
+
+  <a class="card unit s-1 m-1-2 l-1-3">
+    <div class="relative">
+      <img class="img-flex" src="images/work-icon-04.png" alt="">
+      <div class="content center-contents">
+        <h2 class="gutter-half">Adventure</h2>
+      </div>
+    </div>
+  </a>
+
+  <a class="card unit s-1 m-1-2 l-1-3">
     <div class="relative">
       <img class="img-flex" src="images/square.jpg" alt="">
       <div class="content center-contents">
@@ -74,34 +62,7 @@
     </div>
   </a>
 
-  <a class="card unit s-1 m-1-2 l-1-3 island-1-2">
-    <div class="relative">
-      <img class="img-flex" src="images/square.jpg" alt="">
-      <div class="content center-contents">
-        <h2 class="gutter-half">Title</h2>
-      </div>
-    </div>
-  </a>
-
-  <a class="card unit s-1 m-1-2 l-1-3 island-1-2">
-    <div class="relative">
-      <img class="img-flex" src="images/square.jpg" alt="">
-      <div class="content center-contents">
-        <h2 class="gutter-half">Title</h2>
-      </div>
-    </div>
-  </a>
-
-  <a class="card unit s-1 m-1-2 l-1-3 island-1-2">
-    <div class="relative">
-      <img class="img-flex" src="images/square.jpg" alt="">
-      <div class="content center-contents">
-        <h2 class="gutter-half">Title</h2>
-      </div>
-    </div>
-  </a>
-
-  <a class="card unit s-1 m-1-2 l-1-3 island-1-2">
+  <a class="card unit s-1 m-1-2 l-1-3">
     <div class="relative">
       <img class="img-flex" src="images/square.jpg" alt="">
       <div class="content center-contents">
@@ -113,41 +74,6 @@
 </section>
 
 
+<div>
 
-
-
-
-<section class="footer">
-    <div class="grid wrapper pad-t-2">
-      <div class="unit xs-1-2 gutter">
-        <small class="micro block">jaimiegraphics.ca ©️ 2017</small>
-      </div>
-
-      <nav class="footernav unit s-1-2">
-        <ol class="footer-nav list-group-inline push-0 milli">
-          <li><a class="block pad-r-1-2" href="#">About</a></li>
-          <li><a class="block gutter-1-2" href="#work">Work</a></li>
-          <li><a class="block gutter-1-2" href="#">Contact</a></li>
-        </ol>
-      </nav>
-    </div>
-
-    <div class="icons text-right">
-      <a href="#" class="">
-        <i class="icon i-48 push push-r">
-          <svg><use xlink:href="images/social.svg#social-instagram" /></svg>
-        </i>
-      </a>
-      <a href="#" class="">
-        <i class="icon i-48 push push-r">
-          <svg><use xlink:href="images/social.svg#social-twitter" /></svg>
-        </i>
-      </a>
-      <a href="#" class="">
-        <i class="icon i-48 push push-r">
-          <svg><use xlink:href="images/social.svg#social-facebook" /></svg>
-        </i>
-      </a>
-    </div>
-    <hr class="pad-b wrapper">
-  </section>
+</div>

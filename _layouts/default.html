@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Coming Soon</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+
+
+<body>
+  <ul class="skip-links">
+    <li>
+      <a href="#main">Jump to main content</a>
+    </li>
+    <li>
+      <a href="#nav">Jump to navigation</a>
+    </li>
+  </ul>
+
+
+  <header>
+    <div class="grid grid-middle pad-t-1-2 pad-b-1-2 gutter-half">
+      <div class="masthead unit xs-1 s-1 m-1 l-1-2">
+        <h1>Jaimie Porter</h1>
+      </div>
+
+      <nav class="unit xs-1 s-1 m-1 l-1-2">
+        <input type="checkbox" class="nav-check hide-custom-input" id="nav-check">
+        <label class="nav-label" for="nav-check"><img src="{{site.baseurl}}/images/nav-icon.svg" alt="Open Navigation"></label>
+        <ul class="nav list-group">
+          <li><a href="#">About</a></li>
+          <li><a href="{{site.baseurl}}/#work">Work</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+{{content}}
+
+
+
+<footer id="contact" class="text-center">
+  <p class="pad-t-2">CONTACT ME</p>
+  <!--FORM-->
+  <form class="push-0" action="https://formspree.io/jaimie.erin@yahoo.ca" method="POST">
+    <div class="push">
+      <label for="name">NAME</label>
+      <input id="name" name="name" required>
+    </div>
+    <div class="push">
+      <label for="email">E-MAIL</label>
+      <input id="email" type="email" placeholder="hey@company.ca" name="email" required>
+    </div>
+    <div class="push">
+      <label for="details">What can I do for you?</label>
+      <textarea id="details" name="message" required></textarea>
+    </div>
+    <div>
+      <button class="btn btn-light" type="submit">SUBMIT</button>
+    </div>
+  </form>
+  <!--FORM END-->
+
+
+  <div class="icons text-right">
+        <a href="#" class="">
+          <i class="icon i-48 ">
+            <svg><use xlink:href="{{site.baseurl}}/images/social.svg#social-instagram" /></svg>
+          </i>
+        </a>
+
+        <a href="#" class="">
+          <i class="icon i-48">
+            <svg><use xlink:href="{{site.baseurl}}/images/social.svg#social-facebook" /></svg>
+          </i>
+        </a>
+      </div>
+</footer>
