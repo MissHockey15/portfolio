@@ -117,11 +117,6 @@ h3 {
 }
 
 
-.me {
-  width: 32%;
-  display: inline-block;
-}
-
 .text {
   display: inline-block;
   text-align: center;
@@ -133,8 +128,22 @@ h3 {
 
 
 /*BANNER*/
+.me1 {
+  width: 32%;
+  display: inline-block;
+  height: 500px;
+  width: 300px;
+}
+
+.me2 {
+  opacity: 0.2;
+  width: 40%;
+  display: inline-block;
+  position: absolute;
+}
+
+
 .banner {
-  position: relative;
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -145,7 +154,6 @@ h3 {
 }
 
 .content {
-  position: absolute;
   left: 0;
   width: 100%;
   bottom: 30%;
@@ -257,18 +265,21 @@ form input, textarea{
 
 @media only screen and (min-width: 15em) {
 
+  .text {
+    text-align: center;
+  }
+
+/*Footer*/
   footer p {
     text-align: left;
-    padding-left: 1rem;
+    padding-left: .3rem;
   }
 
   .icons {
     padding-top: .3rem;
-    padding-right: 1rem;
+    padding-right: .3rem;
     text-align: right;
   }
-
-
 
 }
 
@@ -288,6 +299,17 @@ form input, textarea{
 
   .card:hover .content {
     opacity: 1;
+  }
+
+  footer p {
+    text-align: left;
+    padding-left: 3rem;
+  }
+
+  .icons {
+    padding-top: .3rem;
+    padding-right: 3rem;
+    text-align: right;
   }
 
 }
