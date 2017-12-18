@@ -114,7 +114,6 @@ h2 {
   font-family: "Caviar Dreams", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 4rem;
   display: inline-block;
   line-height: normal;
   margin: 1rem;
@@ -222,10 +221,6 @@ img {
   background-color: rgba(145, 145, 145, .7);
 }
 
-.image-pad {
-;
-}
-
 
 
 /*FOOTER*/
@@ -233,7 +228,6 @@ footer p {
   text-align: left;
   padding-left: 4rem;
   color: #1E1E1E;
-  font-size: 1em;
 }
 
 footer {
@@ -278,8 +272,6 @@ form {
   width: 80%;
   display: inline-block;
   text-align: left;
-  padding-left: 5rem;
-  padding-right: 5rem;
 }
 
 form input, textarea{
@@ -419,13 +411,24 @@ body {font-family: Verdana,sans-serif;margin:0}
 /*Footer*/
   footer p {
     text-align: left;
+    padding-top: .5rem;
     padding-left: .3rem;
+    font-size: 12px;
   }
 
   .icons {
     padding-top: .3rem;
     padding-right: .3rem;
     text-align: right;
+  }
+
+  .grid h2 {
+  font-size: 30px;
+  }
+
+  form {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
 }
@@ -444,6 +447,15 @@ body {font-family: Verdana,sans-serif;margin:0}
     background-color: rgba(145, 145, 145, .7);
   }
 
+  .grid h2 {
+  font-size: 60px;
+  }
+
+  form {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
   .card:hover .content {
     opacity: 1;
   }
@@ -451,6 +463,8 @@ body {font-family: Verdana,sans-serif;margin:0}
   footer p {
     text-align: left;
     padding-left: 3rem;
+    padding-top: .3rem;
+    font-size: 15px;
   }
 
   .icons {
@@ -488,6 +502,7 @@ body {font-family: Verdana,sans-serif;margin:0}
   .nav-label {
     display: none;
   }
+
 
 }
 
