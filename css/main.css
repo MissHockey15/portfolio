@@ -50,7 +50,9 @@ iframe {
   font-family: "Roboto";
 }
 
-
+h1 a {
+  display: inline-block;
+}
 
 /*NAV*/
 .nav {
@@ -104,7 +106,7 @@ ul {
 }
 
 .portfolio-piece {
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 8px 8px 7px rgba(0,0,0,.2);
 }
 
 
@@ -199,6 +201,7 @@ p {
 }
 
 img {
+  display: block;
   max-width: 100%;
 }
 
@@ -374,7 +377,7 @@ body {font-family: Verdana,sans-serif;margin:0}
 }
 
 .slideshow-container {
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 8px 8px 7px rgba(0,0,0,.2);
 }
 
 
