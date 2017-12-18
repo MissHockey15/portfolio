@@ -223,7 +223,7 @@ img {
 }
 
 .image-pad {
-  padding-bottom: 3rem;
+;
 }
 
 
@@ -238,6 +238,7 @@ footer p {
 
 footer {
   border-top: 1px solid black;
+  background-color: #bac4b0;
 }
 
 .footer-content {
