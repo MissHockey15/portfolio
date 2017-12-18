@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Proxima Nova";
   background-color: #bac4b0;
 }
 
@@ -23,6 +23,7 @@ h1 {
   font-size: 2rem;
   margin: 0;
   margin-bottom: 1rem;
+  color: white;
 }
 
 h6 {
@@ -47,7 +48,7 @@ iframe {
   padding: .5rem;
   color: white;
   font-weight: 200;
-  font-family: "Roboto";
+  font-family: "Proxima Nova";
 }
 
 h1 a {
@@ -111,8 +112,8 @@ ul {
 
 
 h2 {
-  font-family: "Caviar Dreams", sans-serif;
-  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
   font-weight: 400;
   display: inline-block;
   line-height: normal;
@@ -120,7 +121,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Caviar Dreams", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
@@ -139,22 +140,28 @@ h3 {
 
 
 /*BANNER*/
-.me1 {
-  width: 32%;
+.welcome {
+  font-size: 60px;
+}
+
+.picture {
+  max-width: 100%
+}
+
+.me {
+  width: 50%;
   display: inline-block;
   height: 500px;
   width: 300px;
 }
 
-.me2 {
-  opacity: 0.2;
-  width: 40%;
-  display: inline-block;
-}
-
-.text {
+.bannertext {
   display: inline-block;
   text-align: center;
+}
+
+.photo {
+  opacity: 0.9;
 }
 
 .text2 {
@@ -167,13 +174,9 @@ h3 {
   position: absolute;
 }
 
-.banner-large {
-  overflow: hidden;
-  width: 100%;
-  display: block;
+.banner {
   background-color: #C4CEB9;
-  text-align: center;
-  display: none
+  display: none;
 }
 
 .banner-small {
@@ -189,10 +192,6 @@ h3 {
   left: 0;
   width: 100%;
   bottom: 30%;
-}
-
-h1 {
-  color: white;
 }
 
 p {
@@ -423,7 +422,7 @@ body {font-family: Verdana,sans-serif;margin:0}
   }
 
   .grid h2 {
-  font-size: 30px;
+  font-size: 20px;
   }
 
   form {
@@ -473,7 +472,7 @@ body {font-family: Verdana,sans-serif;margin:0}
     text-align: right;
   }
 
-  .banner-large {
+  .banner {
     display: block;
   }
 
