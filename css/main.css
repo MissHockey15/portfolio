@@ -4,13 +4,22 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+@font-face {
+    font-family: "alcubierreregular";
+    src: url('../fonts/alcubierre-webfont.woff2') format('woff2'),
+         url('../fonts/alcubierre-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html {
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Proxima Nova";
+  font-family: "alcubierreregular";
   background-color: #bac4b0;
 }
 
@@ -51,12 +60,12 @@ iframe {
 }
 
 .masthead {
-  height: 4rem;
+  height: 6rem;
   display: block;
   padding: .5rem;
   color: white;
   font-weight: 200;
-  font-family: "Proxima Nova";
+  font-family: "alcubierreregular";
 }
 
 header {
@@ -87,6 +96,7 @@ a {
   display: block;
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 ul {
@@ -95,23 +105,12 @@ ul {
   margin-bottom: 0;
 }
 
-.nav-check {
-  display: none;
-}
 
-.nav-check:checked ~ .nav {
-  display: block;
+.logo {
+  max-width: 20%;
+  padding-left: 2rem;
+  min-width: 110px;
 }
-
-.nav-label {
-  cursor: pointer;
-  width: 40px;
-  display: inline-block;
-  position: absolute;
-  top: 20px;
-  right: 10px;
-}
-
 
 
 .pieces {
@@ -124,7 +123,7 @@ ul {
 
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "alcubierreregular", sans-serif;
   font-size: 50px;
   font-weight: 400;
   display: inline-block;
@@ -139,6 +138,10 @@ h3 {
   font-size: 2rem;
   display: inline-block;
   line-height: normal;
+  margin: 1rem;
+}
+
+.workbody h3 {
   margin-bottom: 0;
 }
 
@@ -193,6 +196,10 @@ h3 {
   display: none;
 }
 
+.bannerbg {
+  background-color: #C4CEB9;
+}
+
 .banner-small {
   overflow: hidden;
   width: 100%;
@@ -200,6 +207,8 @@ h3 {
   background-color: #C4CEB9;
   text-align: center;
   display: block;
+  padding: 1em;
+  padding-bottom: 3em;
 }
 
 .content {
@@ -210,6 +219,11 @@ h3 {
 
 p {
   color: black;
+  margin: 0;
+}
+
+.multi p {
+  margin-bottom: 1rem;
 }
 
 img {
@@ -305,10 +319,12 @@ form input, textarea{
   border-color: black;
 }
 
+/* lists*/
+.lists {
+  background-color: #bac4b0;
+}
 
-
-
-
+/* Slideshow */
 * {box-sizing:border-box}
 body {font-family: Verdana,sans-serif;margin:0}
 .mySlides {display:none}
@@ -463,7 +479,7 @@ body {font-family: Verdana,sans-serif;margin:0}
   }
 
   .grid h2 {
-  font-size: 60px;
+  font-size: 80px;
   }
 
   form {
