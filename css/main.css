@@ -37,10 +37,12 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
-  margin: 0;
-  margin-bottom: 1rem;
-  color: white;
+  font-family: "alcubierreregular", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  display: inline-block;
+  line-height: normal;
+  margin: 1rem;
 }
 
 h6 {
@@ -293,6 +295,7 @@ float: right;
 
 .contact-me h3 {
   padding-bottom: 2rem;
+  font-size: 30px;
 }
 
 form {
@@ -453,8 +456,12 @@ body {font-family: Verdana,sans-serif;margin:0}
     text-align: right;
   }
 
-  .grid h2 {
-  font-size: 20px;
+  .contact-me h2 {
+  font-size: 30px;
+  }
+
+  .grid h3 {
+  font-size: 18px;
   }
 
   form {
@@ -478,8 +485,13 @@ body {font-family: Verdana,sans-serif;margin:0}
     background-color: rgba(145, 145, 145, .7);
   }
 
-  .grid h2 {
-  font-size: 80px;
+  .contact-me h2 {
+  font-size: 50px;
+  }
+
+
+  .grid h3 {
+  font-size: 60px;
   }
 
   form {
