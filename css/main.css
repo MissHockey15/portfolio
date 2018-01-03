@@ -330,8 +330,7 @@ form input, textarea{
 }
 
 /*404 page*/
-.bg {
-  display: block;
+.lostpage {
   background-color: #C4CEB9;
   text-align: center;
 }
