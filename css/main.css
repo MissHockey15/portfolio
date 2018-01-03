@@ -329,6 +329,12 @@ form input, textarea{
   border-color: black;
 }
 
+/*404 page*/
+.bg {
+  background-color: #C4CEB9;
+}
+
+
 /* lists*/
 .lists {
   background-color: #bac4b0;
