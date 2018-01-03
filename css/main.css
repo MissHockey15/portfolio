@@ -332,8 +332,8 @@ form input, textarea{
 /*404 page*/
 .bg {
   background-color: #C4CEB9;
+  text-align: center;
 }
-
 
 /* lists*/
 .lists {
