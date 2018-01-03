@@ -331,6 +331,7 @@ form input, textarea{
 
 /*404 page*/
 .bg {
+  display: block;
   background-color: #C4CEB9;
   text-align: center;
 }
