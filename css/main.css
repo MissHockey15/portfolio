@@ -333,6 +333,7 @@ form input, textarea{
 .lostpage {
   background-color: #C4CEB9;
   text-align: center;
+  display: block;
 }
 
 /* lists*/
