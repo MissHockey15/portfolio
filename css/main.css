@@ -39,7 +39,7 @@ body {
 h1 {
   font-family: "alcubierreregular", sans-serif;
   font-size: 80px;
-  font-weight: 400;
+  font-weight: 500;
   display: inline-block;
   line-height: normal;
   margin: 1rem;
@@ -47,6 +47,7 @@ h1 {
 
 h6 {
   margin-bottom: 0;
+  font-size: .8889rem;
 }
 
 li {
@@ -80,13 +81,13 @@ h1 a {
 
 /*NAV*/
 .nav {
-  display: none;
   text-align: right;
   background-color: #bac4b0;
+  padding-top: 40px;
 }
 
 .nav a:hover {
-  color: black;
+  color: white;
 }
 
 .btn:hover {
@@ -97,8 +98,9 @@ h1 a {
 a {
   display: block;
   text-decoration: none;
-  color: white;
+  color: black;
   cursor: pointer;
+
 }
 
 ul {
@@ -109,9 +111,9 @@ ul {
 
 
 .logo {
-  max-width: 20%;
   padding-left: 2rem;
-  min-width: 110px;
+  float: left;
+  position: relative;
 }
 
 
@@ -125,22 +127,30 @@ ul {
 
 
 h2 {
-  font-family: "alcubierreregular", sans-serif;
-  font-size: 50px;
-  font-weight: 400;
-  display: inline-block;
+  font-family: "proxima", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
   line-height: normal;
   margin: 1rem;
+  color: #282828;
+  padding-top: 2rem;
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "alcubierreregular", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 2rem;
-  display: inline-block;
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
   line-height: normal;
   margin: 1rem;
+  color: #282828;
+}
+
+h4 {
+  margin: 0;
 }
 
 .workbody h3 {
@@ -220,15 +230,31 @@ h3 {
   padding-bottom: 3em;
 }
 
+.playbanner {
+  text-align: center;
+}
+
 .content {
   left: 0;
   width: 100%;
   bottom: 30%;
 }
 
+.columns{
+  column-gap: 60px;
+  padding: 30px 0 40px 0;
+}
+
 p {
   color: black;
   margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.1rem;
+}
+
+ul {
+  font-size: 14px;
 }
 
 .multi p {
@@ -438,22 +464,10 @@ body {font-family: Verdana,sans-serif;margin:0}
   .prev, .next,.text {font-size: 11px}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 15em) {
 
   .text {
-    text-align: center;
+    text-align: left;
   }
 
 /*Footer*/
@@ -481,6 +495,18 @@ body {font-family: Verdana,sans-serif;margin:0}
   form {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .logo {
+    max-width: 40%;
+  }
+
+  .nav {
+    padding-top: 30px;
+  }
+
+  .workbody {
+    padding: 0px 50px 0px 50px;
   }
 
 }
@@ -538,13 +564,30 @@ body {font-family: Verdana,sans-serif;margin:0}
     display: none;
   }
 
+  .logo {
+    max-width: 30%;
+  }
+
+  .nav {
+    padding-top: 40px;
+  }
+
+  .workbody {
+    padding: 0px 100px 0px 100px;
+  }
+
+  .columns{
+    column-count: 1;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   .nav {
     display: block;
-      background-color: #bac4b0;
+    background-color: #bac4b0;
+    padding-top: 50px;
   }
 
   .nav li {
@@ -560,11 +603,26 @@ body {font-family: Verdana,sans-serif;margin:0}
     display: none;
   }
 
+  .logo {
+    max-width: 20%;
+  }
+
+  /* .workbody {
+    padding: 0px 100px 0px 100px;
+  } */
+
+  .columns{
+    column-count: 2;
+  }
 
 }
 
+
 @media only screen and (min-width: 90em) {
 
-
+  .nav {
+      padding-top: 50px;
+      display: block;
+  }
 
 }
